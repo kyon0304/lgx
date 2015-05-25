@@ -1,0 +1,70 @@
+@import "base";
+
+body {
+  background-image: url("/images/0_02.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  color: white;
+  line-height: 2;
+}
+
+#logup {
+  border: 0.125em solid #fcfcfc;
+  width: 455px;
+  padding: 1em 1.8em;
+  display: inline-block;
+}
+
+#logup button {
+  padding: 0;
+  margin: 0;
+  border-style: none;
+}
+
+#logup .logup {
+  width: 100%;
+  background-color: #9bc8f4;
+  font-size: 19px;
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.form-fields {
+  width: 100%;
+}
+
+.form-fields input {
+  font-size: 17px;
+  color: #ccc;
+  border-style: none;
+  border-radius: 0;
+  line-height: 2;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  padding-left: 0.8em;
+  margin-bottom: 1.5em;  
+}
+
+.form-fields .phone {
+  width: 100%;
+}
+
+.interact {
+  text-align: start;
+}
+
+.form-fields .verify{
+  background-color: #daedf8;
+  text-align: center;
+  font-size: 17px;
+  color: #5594d5;
+  width: auto;
+  line-height: 2;
+}

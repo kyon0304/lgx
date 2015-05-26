@@ -2,6 +2,10 @@
 # Compass
 ###
 
+require 'slim'
+require 'middleman-livereload'
+require 'compass'
+
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact

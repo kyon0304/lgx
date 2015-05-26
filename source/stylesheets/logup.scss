@@ -1,11 +1,21 @@
 @import "base";
 
 body {
-  background-image: url("/images/0_02.png");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer img {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
 
 h1 {
   margin-top: 20px;
@@ -15,13 +25,10 @@ h1 {
 }
 
 #logup {
-  box-sizing: border-box;
   border: 0.125em solid #fcfcfc;
-  max-width: 455px;
-  width: 90%;
+  width: auto;
   padding: 1.5em 1em;
-  margin: 0 5%;
-  display: inline-block;
+  margin: 0 1.5em;
 }
 
 #logup button {

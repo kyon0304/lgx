@@ -8,6 +8,10 @@ html
     link href="/stylesheets/index.css" media="screen, projection" rel="stylesheet" type="text/css"
     / weinre
     / script src="http://192.168.0.110:8080/target/target-script-min.js#anonymous"
+    / jquery cdn
+    script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"
+    /js
+    script src="/javascripts/all.js" type="text/javascript"
 
 
   body
@@ -20,9 +24,9 @@ html
         img(src="photos/ph3.jpg" alt="")
 
       .nav
-        span
-        span
-        span
+        a.nav-slide(class="nav-active" href="#")
+        a.nav-slide(href="#")
+        a.nav-slide(href="#" class="last")
       .brief
         span 告诉你如何做好出国留学的准备
 

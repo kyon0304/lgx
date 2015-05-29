@@ -7,6 +7,8 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 footer img {
@@ -14,6 +16,7 @@ footer img {
   position: relative;
   bottom: 0;
   left: 0;
+  display: block;
 }
 
 

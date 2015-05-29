@@ -3,24 +3,38 @@
 
 body {
   background-color: #f7f0f0;
+  max-width: 720px;
 }
 
 .banner-slide {
   width: 100%;
+  position: relative;
+  vertical-align: baseline;
 }
 
 .slide {
   opacity: 0;
+  display: none;
   width: 100%;
   @include  transition(opacity 1.5s ease-in-out);
 }
 
+.slide img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .banner-slide .active {
   opacity: 1;
+  display: block;
 }
 
 .banner-slide .nav {
+  position: absolute;
+  bottom: 40px;
   margin-bottom: 3px;
+  width: 100%;
 }
 
 .banner-slide .nav a {
@@ -37,6 +51,9 @@ body {
 }
 
 .banner-slide .brief {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   color: white;
   font-size: 14px;
   line-height: 2;
@@ -61,18 +78,19 @@ body {
   padding: 9px;
   overflow: hidden;
   text-align: start;
+  @include display-flex(inline-flex);
 }
 
 .profile-box img {
-  width: 30%;
+  width: 100px;
   display: inline-block;
 }
 
 .profile-box .intro {
+  @include flex(1);
   display: inline-block;
   box-sizing: border-box;
   padding: 15px 10px;
-  width: 70%;
   vertical-align: top;
 }
 
@@ -136,6 +154,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 46px;
+  max-width: 720px;
 }
 
 footer ul {

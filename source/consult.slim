@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    / style
+    link href="/stylesheets/consult.css" media="screen, projection" rel="stylesheet" type="text/css"
+    / weinre
+    / script src="http://192.168.3.10:8080/target/target-script-min.js#anonymous"
+
+  body
+    header
+      h1 填写问题
+      .bio
+        img.avatar(src="/photos/lgx_avator_01.jpg")
+        .info
+          p.start
+            span.name 李珂
+            span.school 国际关系学院
+          p.end
+            span.price 100元/次
+      h2 岂止律师，关于法学专业及个人发展的建议
+      
+    section.content
+      .cert 
+        .cert-box(class='lgxrz')
+          span 连高校认证
+        .cert-box(class='wytk')
+          span 无忧退款
+        .cert-box(class='zxwd')
+          span 在线问答
+      .question
+        h3 您想咨询的问题是？( 必填 )
+        input.descript(type='text' placeholder='请详细描述您的问题')
+        h3 您个人的一些基本信息 ( 选填 )
+        input.descript(type='text' placeholder='请描述您相关的个人信息')
+        
+    footer
+      a.back(href="#")
+        img(src="/images/2_11.png")
+      a.ask(href="#")
+        span 下一步

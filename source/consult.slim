@@ -31,10 +31,11 @@ html
         .cert-box(class='zxwd')
           span 在线问答
       .question
-        h3 您想咨询的问题是？( 必填 )
-        input.descript(type='text' placeholder='请详细描述您的问题')
-        h3 您个人的一些基本信息 ( 选填 )
-        input.descript(type='text' placeholder='请描述您相关的个人信息')
+        form
+          label 您想咨询的问题是？( 必填 )
+          textarea.descript(rows='5' placeholder='请详细描述您的问题')
+          label 您个人的一些基本信息 ( 选填 )
+          textarea.descript(rows='5' placeholder='请描述您相关的个人信息')
         
     footer
       a.back(href="#")
